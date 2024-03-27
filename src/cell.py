@@ -14,6 +14,7 @@ class Cell():
         self.__center = Point((x1+x2)//2, (y1+y2)//2)
         self.__win = window
         self.__wall_color = wall_color
+        self.visited = False
     
     def draw(self):
         if self.__win is None:

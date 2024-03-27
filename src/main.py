@@ -24,6 +24,7 @@ def main():
     cell4.has_left_wall = False
     cell4.draw()
     '''
+    maze.solve()
     win.wait_for_close()
     
 
